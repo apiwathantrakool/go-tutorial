@@ -62,3 +62,11 @@ Note, we don't ever reference a receiver value as 'this' or 'self'. For example,
 cards := deck{"A", "B", "C"}
 cards.print()
 ```
+
+# Indexing
+
+If `data = ["A", "B", "C"];`
+And, `data[startIndexIncluding: upToNotInCluding]`
+Then, `data[0:2]` is `["A","B"]`
+Or, `data[:2]` is `["A","B"]`
+Or, `data[2:]` is `["B","C"]`
