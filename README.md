@@ -1,3 +1,8 @@
+# Command
+
+To run package: `go run main.go deck.go`
+To run test: `go test`
+
 # To declare a variable
 
 Using `:=` for example,
@@ -70,3 +75,7 @@ And, `data[startIndexIncluding: upToNotInCluding]`
 Then, `data[0:2]` is `["A","B"]`
 Or, `data[:2]` is `["A","B"]`
 Or, `data[2:]` is `["B","C"]`
+
+# Testing
+
+Create a new file ending in `_test.go` for example `deck_test.go`
