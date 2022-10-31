@@ -55,6 +55,7 @@ func (d deck) print() {
 ```
 
 So that, any variables type `deck` can access function `print()`, because we set the receiver parameter `(d deck)`.
+Note, we don't ever reference a receiver value as 'this' or 'self'. For example, `func (this deck) print()`
 
 ```
 <!-- main.go -->
