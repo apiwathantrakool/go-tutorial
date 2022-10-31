@@ -30,3 +30,13 @@ func getText() string {
 	return "Hello World";
 }
 ```
+
+Slice and For loop
+
+```
+cards := []string{"A", "B"}
+cards = append(cards, "C")
+for index, card := range cards{
+	fmt.Println(index,card)
+}
+```
