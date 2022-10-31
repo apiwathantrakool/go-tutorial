@@ -14,4 +14,6 @@ const text string = "Hello World";
 var text02 string = "Hello World 02";
 const numberTest int = 100;
 const booleanTest bool = true;
+var deckSize int
+deckSize = 58
 ```
