@@ -18,7 +18,7 @@ var deckSize int
 deckSize = 58
 ```
 
-Simple function
+# Simple function
 
 ```
 func main(){
@@ -31,7 +31,7 @@ func getText() string {
 }
 ```
 
-Slice and For loop
+# Slice and For loop
 
 ```
 cards := []string{"A", "B"}
@@ -39,4 +39,25 @@ cards = append(cards, "C")
 for index, card := range cards{
 	fmt.Println(index,card)
 }
+```
+
+# Type and Receiver function
+
+```
+<!-- deck.go -->
+type deck []string
+
+func (d deck) print() {
+	for index, card := range d {
+		fmt.Println(index, card)
+	}
+}
+```
+
+So that, any variables type `deck` can access function `print()`, because we set the receiver parameter `(d deck)`.
+
+```
+<!-- main.go -->
+cards := deck{"A", "B", "C"}
+cards.print()
 ```
