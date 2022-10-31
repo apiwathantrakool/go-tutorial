@@ -17,3 +17,16 @@ const booleanTest bool = true;
 var deckSize int
 deckSize = 58
 ```
+
+Simple function
+
+```
+func main(){
+	text := getText();
+	fmt.Println(text)
+}
+
+func getText() string {
+	return "Hello World";
+}
+```
