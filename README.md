@@ -3,6 +3,15 @@
 Using `:=` for example,
 
 ```
-	text2 := "Text02";
-	text2 = "Text02 edit";
+text := "Text";
+text = "Text edit";
+```
+
+Assign with Typescript,
+
+```
+const text string = "Hello World";
+var text02 string = "Hello World 02";
+const numberTest int = 100;
+const booleanTest bool = true;
 ```
