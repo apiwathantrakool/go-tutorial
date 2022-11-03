@@ -79,3 +79,20 @@ Or, `data[2:]` is `["B","C"]`
 # Testing
 
 Create a new file ending in `_test.go` for example `deck_test.go`
+
+# Interface and Struct
+
+Think about OOP concept.
+
+- Struct is a main structure or blueprint of the object. Attribute
+- Interface is additional behavior or accessory of the object. Behavior
+
+# Array vs Slice vs Map
+
+- Array = [N]T
+- Slice = []T
+- Map = map[K]T
+
+N is number max values in array.
+T is datatype.
+K is key or id of an object.
