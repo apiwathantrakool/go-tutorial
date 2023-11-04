@@ -99,5 +99,5 @@ K is key or id of an object.
 
 # Pointer
 
-Use * when want to update the value which is located in the memory.
-Use & when want to create an object of a struct.
+- Use * when want to update the value which is located in the memory.
+- Use & when want to create an object of a struct.

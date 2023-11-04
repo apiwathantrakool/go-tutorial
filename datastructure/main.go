@@ -23,7 +23,7 @@ func main() {
 }
 
 func (p *person) updateName(newData string) { // *pointer = Give me the value this memory address is pointing at.
-	(*p).firstName = newData
+	p.firstName = newData
 }
 
 func (p person) print() {
