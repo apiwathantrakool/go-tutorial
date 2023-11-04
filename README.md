@@ -71,10 +71,10 @@ cards.print()
 # Indexing
 
 If `data = ["A", "B", "C"];`
-And, `data[startIndexIncluding: upToNotInCluding]`
+And, `data[startIndexIncluding: upToNotIncluding]`
 Then, `data[0:2]` is `["A","B"]`
 Or, `data[:2]` is `["A","B"]`
-Or, `data[2:]` is `["B","C"]`
+Or, `data[1:]` is `["B","C"]`
 
 # Testing
 
@@ -96,3 +96,8 @@ Think about OOP concept.
 N is number max values in array.
 T is datatype.
 K is key or id of an object.
+
+# Pointer
+
+Use * when want to update the value which is located in the memory.
+Use & when want to create an object of a struct.
