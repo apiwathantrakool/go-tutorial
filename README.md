@@ -101,3 +101,10 @@ K is key or id of an object.
 
 - Use * when want to update the value which is located in the memory.
 - Use & when want to create an object of a struct.
+
+# Go Routine
+
+Execute function in parallel.
+Add `go` in front of function call
+For example, `go printValue()`
+ref: https://stackoverflow.com/questions/27792389/golang-functions-parallel-execution-with-return
